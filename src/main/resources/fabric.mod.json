@@ -3,9 +3,9 @@
 	"id": "test-mod",
 	"version": "${version}",
 	"name": "test mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is an example description!",
 	"authors": [
-		"Me!"
+		"xian!"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.xian.testmod.TestModDataGenerator"
+		],
+		"client": [
+			"com.xian.testmod.TestModClient"
 		]
 	},
 	"mixins": [
