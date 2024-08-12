@@ -23,7 +23,7 @@ public class ModItems {
         fabricGroupEntries.add(LIMBUSIUM_INGOT);
     }
     public static void registerModItems(){
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemToItemGroupEntries);
+        ItemGroupEvents.modifyEntriesEvent(ModItemGroups.LIMBUSIUM_GROUP).register(ModItems::addItemToItemGroupEntries);
         TestMod.LOGGER.info("Registering Items");
     }
 }
