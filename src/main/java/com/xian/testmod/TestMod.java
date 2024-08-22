@@ -21,9 +21,10 @@ public class TestMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		/* Call to add mod items into the game */
-		ModItems.registerModItems();
-		ModItemGroups.registerModGroups();
-		LOGGER.info("Hello Fabric world!");
+		ModItems.registerModItems(); // register all test-mod items into game
+		ModItemGroups.registerModGroups(); // register all test-mod itemsGroups into game
+		//ModBlocks.registerModBlocks();
+		LOGGER.info("Hello Fabric world!"); 
 
 	}
 }
