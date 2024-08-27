@@ -1,6 +1,7 @@
 package com.xian.testmod.item;
 
 import com.xian.testmod.TestMod;
+import com.xian.testmod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -25,6 +26,7 @@ public class ModItemGroups {
                         .icon(() -> new ItemStack(ModItems.LIMBUSIUM_INGOT))
                         .entries((displayContext, entries) -> {
                             entries.add(ModItems.LIMBUSIUM_INGOT);
+                            entries.add(ModBlocks.LIMBUSIUM_BLOCK);
                         }).build());
         TestMod.LOGGER.info("Registering Item Group");
     }

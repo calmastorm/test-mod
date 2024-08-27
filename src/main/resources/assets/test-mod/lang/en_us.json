@@ -1,4 +1,5 @@
 {
   "itemGroup.limbusium_group": "Limbusium",
-  "item.test-mod.limbusium_ingot": "Limbusium Ingot"
+  "item.test-mod.limbusium_ingot": "Limbusium Ingot",
+  "block.test-mod.limbusium_block": "Limbusium Block"
 }

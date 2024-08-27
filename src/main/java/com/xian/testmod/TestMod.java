@@ -1,5 +1,6 @@
 package com.xian.testmod;
 
+import com.xian.testmod.block.ModBlocks;
 import com.xian.testmod.item.ModItemGroups;
 import com.xian.testmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -23,7 +24,7 @@ public class TestMod implements ModInitializer {
 		/* Call to add mod items into the game */
 		ModItems.registerModItems(); // register all test-mod items into game
 		ModItemGroups.registerModGroups(); // register all test-mod itemsGroups into game
-		//ModBlocks.registerModBlocks();
+		ModBlocks.registerModBlocks();
 		LOGGER.info("Hello Fabric world!"); 
 
 	}
